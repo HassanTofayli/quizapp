@@ -1272,11 +1272,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\hassa\\Desktop\\hassan\\uni\\MU\\fall2023\\CSC400-WEB_PROGRAMMING-imad_mokadem\\PROJECT MHMD ABDALLAH\\website\\quizapp\\quizapp.csproj",
+      "projectUniqueName": "C:\\Users\\hassa\\RiderProjects\\quizapp\\quizapp.csproj",
       "projectName": "quizapp",
-      "projectPath": "c:\\Users\\hassa\\Desktop\\hassan\\uni\\MU\\fall2023\\CSC400-WEB_PROGRAMMING-imad_mokadem\\PROJECT MHMD ABDALLAH\\website\\quizapp\\quizapp.csproj",
+      "projectPath": "C:\\Users\\hassa\\RiderProjects\\quizapp\\quizapp.csproj",
       "packagesPath": "C:\\Users\\hassa\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\hassa\\Desktop\\hassan\\uni\\MU\\fall2023\\CSC400-WEB_PROGRAMMING-imad_mokadem\\PROJECT MHMD ABDALLAH\\website\\quizapp\\obj\\",
+      "outputPath": "C:\\Users\\hassa\\RiderProjects\\quizapp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hassa\\AppData\\Roaming\\NuGet\\NuGet.Config"

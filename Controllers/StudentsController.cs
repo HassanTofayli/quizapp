@@ -57,9 +57,4 @@ public class StudentsController : Controller
     }
 
 
-
-    public IActionResult aboutUs()
-    {
-        return View();
-    }
 }

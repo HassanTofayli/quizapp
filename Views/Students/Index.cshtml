@@ -34,15 +34,10 @@
     @foreach (var item in Model)
     {
         <li>
-
             <p>@item.student_name</p>
-            <form asp-action="ViewHotel">
+            <form asp-action="AddStudent">
                 <input type="hidden" name="id" value="">
                 <input type="submit" value="View" class="btn ms-3 mb-3 btn-primary">
-            </form>
-            <form asp-action="DeleteHotel">
-                <input type="hidden" name="id" value="">
-                <input type="submit" class="btn mb-3 btn-danger" value="Delete">
             </form>
 
         </li>

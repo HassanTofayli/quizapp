@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/p0DoQkIBp6SwNk86IR6S1f29UO9d4z5lrekMZ9uBSSYuHUCmqtj5cW+aM5t+ENm+gJY+D5sOBI4FJvhfXXHgQ==",
+  "dgSpecHash": "M7K//7B9HpuAJ+ns/pTl05U3/lDcbobAY7uCpa5vCHYAUSwk/ou8pbEbMrgIIZuifR0J7tkMLDPSvVODtFxaaQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hassa\\Desktop\\hassan\\uni\\MU\\fall2023\\CSC400-WEB_PROGRAMMING-imad_mokadem\\PROJECT MHMD ABDALLAH\\website\\quizapp\\quizapp.csproj",
+  "projectFilePath": "C:\\Users\\hassa\\RiderProjects\\quizapp\\quizapp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hassa\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\hassa\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.12\\microsoft.data.sqlite.core.6.0.12.nupkg.sha512",
