@@ -1,7 +1,20 @@
+using Microsoft.EntityFrameworkCore;
+using quizapp.Data;
+using quizapp.Interfaces;
+using quizapp.Repos;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+builder.Services.AddScoped<IStudentRepo, StudentRepo>();
+builder.Services.AddScoped<ITeacherRepo, TeacherRepo>();
+
+
+builder.Services.AddDbContext<AppDbContext>(options => 
+options.UseSqlite(builder.Configuration.GetConnectionString("sqlite")));
 
 var app = builder.Build();
 
@@ -22,6 +35,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Students}/{action=Index}/{id?}");
 
 app.Run();
