@@ -18,7 +18,7 @@ public class TeachersController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> CreateTeacher(Teacher teacher)
+    public async Task<IActionResult> AddTeacher(Teacher teacher)
     {
         if(await _repo.AddTeacherAsync(teacher)){
             return RedirectToAction("Index");
@@ -27,7 +27,7 @@ public class TeachersController : Controller
     }
 
     [HttpGet]
-    public IActionResult CreateTeacher()
+    public IActionResult AddTeacher()
     {
         return View();
     }
@@ -42,6 +42,10 @@ public class TeachersController : Controller
         return BadRequest("Error");
     }
 
+    public IActionResult CreateQuiz()
+    {
+        return Redirect("/Views/ClassRoom/CreateQuiz.cshtml");
+    }
 
-    
+
 }

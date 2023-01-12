@@ -11,5 +11,5 @@ public class ClassRoom {
     public int TeacherId { get; set; }
     public Teacher Teacher { get; set; } = null!;
     public ICollection<StudentClassroom> Classrooms { get; set; } = new List<StudentClassroom>();
-
+    public List<Quiz>? Quizzes { get; set; }
 }

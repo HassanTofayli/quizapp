@@ -11,6 +11,7 @@ public class AppDbContext : DbContext {
     public DbSet<ClassRoom> ClassRooms { get; set; } = null!;
     public DbSet<Teacher> Teachers { get; set; } = null!;
     public DbSet<Student> Students { get; set; } = null!;
+    public DbSet<Quiz> Quizzes { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
